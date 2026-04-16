@@ -4,6 +4,10 @@ import { ArrowRight, Map, Satellite, BarChart3, Database, Layers, Globe2, Chevro
 import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import SectionHeading from "@/components/SectionHeading";
+import heroBg from "@/assets/hero-bg.jpg";
+import Layout from "@/components/Layout";
+import SEOHead from "@/components/SEOHead";
+import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
   { value: "500+", label: "Projects Delivered" },
@@ -37,9 +41,11 @@ const Index = () => (
     />
 
     {/* Hero */}
-    <section className="relative flex min-h-[90vh] items-center overflow-hidden bg-gradient-hero">
-      <div className="absolute inset-0 grid-pattern opacity-30" />
-      <div className="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/5 blur-3xl" />
+    <section className="relative flex min-h-[90vh] items-center overflow-hidden">
+      <div className="absolute inset-0">
+        <img src={heroBg} alt="Geospatial visualization" className="h-full w-full object-cover opacity-30" width={1920} height={1080} />
+      </div>
+      <div className="absolute inset-0 bg-gradient-hero" />
       <div className="container relative z-10 mx-auto px-4 lg:px-8">
         <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7 }} className="max-w-3xl">
           <span className="mb-4 inline-block rounded-full border border-primary/30 bg-primary/10 px-4 py-1.5 text-xs font-medium uppercase tracking-widest text-primary">
