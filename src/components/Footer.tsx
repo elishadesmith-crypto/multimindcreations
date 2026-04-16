@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Mail, Phone, LinkedinIcon, TwitterIcon, GithubIcon } from "lucide-react";
+import { MapPin, Mail, Phone, Globe, ExternalLink, Share2 } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border bg-card">
@@ -18,7 +18,7 @@ const Footer = () => (
             Pioneering geospatial intelligence solutions for a smarter, more connected world.
           </p>
           <div className="mt-6 flex gap-3">
-            {[Linkedin, Twitter, Github].map((Icon, i) => (
+            {[Globe, ExternalLink, Share2].map((Icon, i) => (
               <a key={i} href="#" className="flex h-9 w-9 items-center justify-center rounded-lg border border-border text-muted-foreground transition-colors hover:border-primary hover:text-primary" aria-label="Social link">
                 <Icon className="h-4 w-4" />
               </a>
