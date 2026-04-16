@@ -5,9 +5,6 @@ import Layout from "@/components/Layout";
 import SEOHead from "@/components/SEOHead";
 import SectionHeading from "@/components/SectionHeading";
 import heroBg from "@/assets/hero-bg.jpg";
-import Layout from "@/components/Layout";
-import SEOHead from "@/components/SEOHead";
-import SectionHeading from "@/components/SectionHeading";
 
 const stats = [
   { value: "500+", label: "Projects Delivered" },
