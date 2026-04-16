@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Mail, Phone, Linkedin, Twitter, Github } from "lucide-react";
+import { MapPin, Mail, Phone, LinkedinIcon, TwitterIcon, GithubIcon } from "lucide-react";
 
 const Footer = () => (
   <footer className="border-t border-border bg-card">
