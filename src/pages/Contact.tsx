@@ -9,7 +9,7 @@ const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0
 
 const contactInfo = [
   { icon: Mail, label: "Email", value: "info@multimindcreations.com" },
-  { icon: Phone, label: "Phone", value: "+91 98765 43210" },
+  { icon: Phone, label: "Phone", value: "+91 99999999" },
   { icon: MapPin, label: "Address", value: "99, First Floor, M.B Road, Next to Misthaan Cafe, Khanpur, New Delhi, Delhi, 110062, India" },
   { icon: Clock, label: "Working Hours", value: "Mon – Fri: 9:00 AM – 6:00 PM IST" },
 ];
@@ -17,7 +17,7 @@ const contactInfo = [
 const Contact = () => {
   const [form, setForm] = useState({ name: "", email: "", phone: "", company: "", service: "", message: "" });
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e:React.FormEvent) => {
     e.preventDefault();
     alert("Thank you! We'll get back to you shortly.");
     setForm({ name: "", email: "", phone: "", company: "", service: "", message: "" });
