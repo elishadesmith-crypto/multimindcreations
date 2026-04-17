@@ -10,7 +10,7 @@ const fadeUp = { initial: { opacity: 0, y: 30 }, whileInView: { opacity: 1, y: 0
 const contactInfo = [
   { icon: Mail, label: "Email", value: "info@multimindcreations.com" },
   { icon: Phone, label: "Phone", value: "+91 98765 43210" },
-  { icon: MapPin, label: "Address", value: "HITEC City, Hyderabad, Telangana 500081, India" },
+  { icon: MapPin, label: "Address", value: "99, First Floor, M.B Road, Next to Misthaan Cafe, Khanpur, New Delhi, Delhi, 110062, India" },
   { icon: Clock, label: "Working Hours", value: "Mon – Fri: 9:00 AM – 6:00 PM IST" },
 ];
 
@@ -101,7 +101,7 @@ const Contact = () => {
         <div className="h-80 bg-card dot-pattern flex items-center justify-center">
           <div className="text-center">
             <MapPin className="mx-auto h-10 w-10 text-primary animate-pulse-glow" />
-            <p className="mt-2 text-sm text-muted-foreground">HITEC City, Hyderabad, India</p>
+            <p className="mt-2 text-sm text-muted-foreground">New Delhi, India</p>
           </div>
         </div>
       </section>
